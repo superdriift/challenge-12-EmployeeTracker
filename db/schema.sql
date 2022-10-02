@@ -1,0 +1,1 @@
+-- we are connected // schema & mysql is working
