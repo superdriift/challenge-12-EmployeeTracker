@@ -2,13 +2,14 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
-    "inquirer": "^9.1.2",
+    "inquirer": "^8.2.4",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20"
   },
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "sql": "mysql -u root -p"
   },
   "name": "challenge-12-employeetracker",
   "description": "",
