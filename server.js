@@ -6,6 +6,9 @@ const inquirer = require('inquirer');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+require('dotenv').config();
+
+
 // const viewDepartment = require('./js/inquirer')
 
 
@@ -20,7 +23,7 @@ const db = mysql.createConnection(
         // MySQL username,
         user: 'root',
         // MySQL password
-        password: 'TheST33Z!',
+        password: process.env.DB_PASSWORD,
         // Database you are trying to connect to
         database: 'db_corporation'
     },
